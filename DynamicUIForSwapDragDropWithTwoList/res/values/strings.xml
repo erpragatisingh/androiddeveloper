@@ -1,13 +1,534 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">NavisDynamicUIForSwap</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_example">Navis action</string>
-    <string name="action_settings">Settings</string>
+    <string name="hello">Hello World,  NavisDynamicUi</string>
+    <string name="app_name">NavisDynamicUi</string>
+
+
+
+    <string name="location_latti">+48.188903</string>
+    <string name="location_longi">-122.117437</string>
+    
+    <string name="app_package">CascadeValley</string>
+    <string name="global_versaworks">CASCADE VALLEY</string>
+    <string name="global_save">Save</string>
+    <string name="global_done">Done</string>
+    <string name="global_appname">CASCADE VALLEY</string>
+    <string name="global_ok">OK</string>
+    <string name="global_cancel">Cancel</string>
+    <string name="global_yes">YES</string>
+    <string name="global_no">NO</string>
+    <string name="global_supportEmailSubject">NavisHealth-Cascade Valley</string>
+    <string name="global_supportEmail">support@navishealth.com</string>
+    <string name="about_header">ABOUT</string>
+    <string name="about_naavisversion">Engage \n Version 1.0.0_S</string>
+    <string name="about_naavisbuild">\t(Build 1656,424fd209)\n © 2014 NavisHealth Solutions</string>
+    <string name="about_review">PLAY STORE</string>
+    <string name="about_emailsupport">EMAIL SUPPORT</string>
+    <string name="about_termsnconditions">TERMS AND CONDITIONS</string>
+    <string name="changeforgotpassword_header">PASSWORD</string>
+    <string name="changeforgotpassword_newPassword">New Password</string>
+    <string name="changeforgotpassword_continueLogin">Continue to Login</string>
+    <string name="contact_header">CONTACT US</string>
+    <string name="contact_sendQuestion">SEND US A QUESTION</string>
+    <string name="contact_phone">PHONE</string>
+    <string name="contact_phonenumber"> (360) 435 2133</string>
+    <string name="contact_phonenum">3604352133</string>
+    <string name="contact_address">ADDRESS</string>
+    <string name="contact_addtoContact">ADD TO MY CONTACT</string>
+    <string name="contact_contactadded">Contact added successfully</string>
+    <string name="contact_addresshospital">Cascade Valley Hospital</string>
+    <string name="contact_addressinfo">330 S. Stillaguamish, Arlington, WA 98223</string>
+    <string name="createappointment_header">CREATE APPOINTMENT</string>
+    <string name="createappointment_dateformat">mm/dd/yyyy</string>
+    <string name="createappointment_timeformat">hh:mm</string>
+    <string name="createappointment_date">Date</string>
+    <string name="createappointment_time">Time</string>
+    <string name="createappointment_name">Name</string>
+    <string name="createappointment_phone">Phone Number</string>
+    <string name="createappointment_emailaddress">Email Address</string>
+    <string name="createappointment_comment">Please enter comment.</string>
+    <string name="createappointment_newphysician">Enter physician name</string>
+    <string name="createappointment_submit">Submit</string>
+    <string name="enrolluser_header">WELCOME TO CASCADE VALLEY</string>
+    <string name="enrolluser_fname">First Name</string>
+    <string name="enrolluser_lname">Last Name</string>
+    <string name="enrolluser_phone">Phone Number</string>
+    <string name="enrolluser_email">Email Address</string>
+    <string name="enrolluser_dob">Date of Birth</string>
+    <string name="enrolluser_mr">Enter Medical Record No.</string>
+    <string name="enrolluser_tnc">By signing up, you agree to our</string>
+    <string name="enrolluser_tnctext">  T&amp;C\'s</string>
+    <string name="enrolluser_signup">Sign Up</string>
+    <string name="feedback_header">FEEDBACK</string>
+    <string name="feedback_thanksmessage">Thanks for coming</string>
+    <string name="feedback_ratingvisit">Please rate your visit</string>
+    <string name="feedback_ratingrecovery">Please rate your recovery</string>
+    <string name="feedback_comment">Type comment here</string>
+    <string name="feedback_submit">Submit</string>
+    <string name="fitbit_header">FITBIT</string>
+    <string name="fitbit_trackingactivity">Tracking your daily activity is great way to motivate you to be more active</string>
+    <string name="fitbit_fitbitdevice">Fitbit is a device that allows you to automatically track your activity</string>
+    <string name="fitbit_connecttofitbit">Connect your Fitbit Account</string>
+    <string name="forgotpassworda_header">FORGOT PASSWORD</string>
+    <string name="forgotpassworda_entermemberinfo">Enter your member information </string>
+    <string name="forgotpassworda_entermailid">Enter your Email</string>
+    <string name="forgotpassworda_enter_member_record_no">Enter Medical Record No </string>
+    <string name="forgotpassworda_next">Next</string>
+    <string name="forgotpasswordb_confirm_basic_information">Confirm basic information about yourself, then answer up to 3 security questions.</string>
+    <string name="forgotpasswordb_answer">Answer :</string>
+    <string name="forgotpasswordb_question">Question :</string>
+    <string name="forgotpasswordc_enter_uniqueId">Enter your Unique Id sent during signup</string>
+    <string name="forgotpasswordc_accept_conditions">I\'ve read about and understand</string>
+    <string name="forgotpasswordc_submit">Submit</string>
+    <string name="home_header">Submit</string>
+    <string name="home_trackyourhealth">TRACK YOUR HEALTH</string>
+    <string name="home_firstAidLibraries">FIRST AID &amp; HEALTH LIBRARY</string>
+    <string name="home_service">SERVICES</string>
+    <string name="home_physician">PHYSICIANS</string>
+    <string name="home_record">VIEW RECORDS</string>
+    <string name="home_location">LOCATION</string>
+    <string name="labresults_header">LAB RESULTS</string>
+    <string name="labresults_itemdate">Lab result for date:</string>
+    <string name="labresults_itemname">Test:</string>
+    <string name="labresults_itemresult">Result:</string>
+    <string name="login_header">LOGIN</string>
+    <string name="login_uname">Email Address</string>
+    <string name="login_pass">Password</string>
+    <string name="login_remember">Remember me</string>
+    <string name="login_login">Login</string>
+    <string name="login_forgetpass">Forgot password?</string>
+    <string name="login_enrolluser">Click here to Enroll</string>
+    <string name="login_guest">Continue as Guest</string>
+    <string name="newenrollassword_header">WELCOME TO VERSAWORKS</string>
+    <string name="newenrollassword_password">Enter Password</string>
+    <string name="newenrollassword_confpassword">Confirm Password</string>
+    <string name="newenrollassword_submit">Submit</string>
+    <string name="physicianinfo_header">INFO</string>
+    <string name="physicianinfo_speciality">Specialty :</string>
+    <string name="physicianinfo_address">Office Address :</string>
+    <string name="physicianinfo_phone">Phone :</string>
+    <string name="physicianinfo_email">Email :</string>
+    <string name="physicianinfo_fax">Fax :</string>
+    <string name="physicianinfo_addcontact">ADD TO MY CONTACT</string>
+    <string name="prescription_header">PRESCRIPTIONS</string>
+    <string name="prescription_itemdate">Date Administered:</string>
+    <string name="prescription_itemname">Medication:</string>
+    <string name="prescription_itemresult">Dose:</string>
+    <string name="patientrecord_header">PATIENT RECORD</string>
+    <string name="patientrecord_name">PATIENT NAME</string>
+    <string name="patientrecord_dob">DATE OF BIRTH</string>
+    <string name="patientrecord_sex">SEX</string>
+    <string name="patientrecord_race">RACE</string>
+    <string name="patientrecord_ethnicity">ETHNICITY</string>
+    <string name="patientrecord_prefferedlanguage">PREFFERED LANGUAGE</string>
+    <string name="patientrecord_smokingstatus">SMOKING STATUS</string>
+    <string name="patientrecord_problems">Problems</string>
+    <string name="patientrecord_medications">Medications</string>
+    <string name="patientrecord_allergies">Allergies</string>
+    <string name="patientrecord_labtest">Laboratory Test/Results</string>
+    <string name="patientrecord_vitalsign">VitalSigns</string>
+    <string name="patientrecord_careplan">CarePlans</string>
+    <string name="patientrecord_procedure">Procedures</string>
+    <string name="patientrecord_careteam">CareTeam</string>
+    <string name="patientrecord_encounterinfo">Encounter Information</string>
+    <string name="patientencounterinfo_diagnosis">Encounter Diagnosis</string>
+    <string name="dateaddmitted">Admission Date</string>
+    <string name="datedischarhed">Discharge Date</string>
+    <string name="locationdischarge">Location</string>
+    <string name="patientencounterinfo_function">Functional Status</string>
+    <string name="patientencounterinfo_hositalizationreason">Reason of Hospitalization</string>
+    <string name="patientencounterinfo_dischargeinstruction">Discharge Instruction</string>
+    <string name="patientencounterinfo_immunization">Immunization</string>
+    <string name="record_header">APPOINTMENTS</string>
+    <string name="resetpassword_header">RESET PIN</string>
+    <string name="resetpassword_oldpass">Old PIN</string>
+    <string name="resetpassword_newpass">New PIN</string>
+    <string name="resetpassword_confnewpass">Confirm New PIN</string>
+    <string name="termsncondition_header">TERMS &amp; CONDITIONS</string>
+    <string name="verifyingEmailId">Verifying email Id...</string>
+    <string name="termsncondition_TnC">THIS APPLICATION IS LICENSED TO YOU BY "NAVISHEALTH SOLUTIONS, INC." (THE "APPLICATION PROVIDER").  BY USING THE APPLICATION OR BY CLICKING "I ACCEPT" BELOW, YOU SIGNIFY YOUR AGREEMENT TO THESE TERMS AND CONDITIONS.  IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS, DO NOT DOWNLOAD AND/OR USE THE APPLICATION.\n\nIn these Terms, you shall be referred to as "you" or the "APPLICATION USER".\n\n 1. Purpose.  This Application is provided to educate consumers on health care and medical issues that may affect their daily lives. The Application allows users to view health-related information and arrange for clinical services and access additional services through participating Providers. This Application does not constitute the practice of any medical, nursing or other professional health care advice, diagnosis or treatment.\n\n2. THIS APPLICATION DOES NOT PROVIDE MEDICAL ADVICE.  The contents of the Application, such as text, graphics, images, data, graphs, audio, videos, computer programs and other material and information (collectively the "Content"), are for informational purposes only. THE CONTENT PROVIDED IN THIS APPLICATION IS NOT A SUBSTITUTE FOR THE ADVICE OF YOUR PROFESSIONAL PHYSICIAN OR OTHER QUALIFIED HEALTH CARE PROFESSIONAL. ALWAYS SEEK THE ADVICE OF YOUR PHYSICIAN OR OTHER QUALIFIED HEALTH CARE PROFESSIONAL WITH ANY QUESTIONS YOU MAY HAVE REGARDING A MEDICAL SYMPTOM OR A MEDICAL CONDITION. NEVER DISREGARD PROFESSIONAL MEDICAL ADVICE OR DELAY IN SEEKING IT BECAUSE OF SOMETHING YOU HAVE READ OR SEEN IN THIS APPLICATION. If you think you have a medical or psychiatric emergency, call 911 or go to the nearest hospital.\n\nAPPLICATION PROVIDER does not recommend or endorse any specific tests, products, procedures, opinions, or other information that may be mentioned in the Application. Use of the Application neither constitutes a patient visit with any health care provider nor obligates APPLICATION PROVIDER in treatment for any condition in any way. You must be at least eighteen (18) years old to use this Application.\n\n3. mobile operating system “Jailbreaking”.  This Application is intended for use only on a mobile device that is running an unmodified manufacturer-approved operating system.  Using this Application on a device with a modified operating system may undermine security features that are intended to protect your health information from unauthorized or unintended disclosure.  You may compromise your health information or the health information of anyone for whom you have been given access, if you use this Application on a mobile device that has been modified. Use of this Application on a mobile device with a modified operating system is a material breach of these Terms and Conditions.\n\n4. changes and updates.  Application PROVIDER may revise the information in this Application, or otherwise change or update the Application including these Terms and Conditions, without notice to you. APPLICATION PROVIDER may also make improvements and/or changes in products and functionalities or add new features at any time without notice. We encourage you to periodically read these Terms and Conditions to see if there have been any changes to our policies that may affect you. Your continued use of this Application will signify your continued agreement to these Terms and Conditions as they may be revised.\n\n5. Links to third party Applications.  The Application provides links to other websites or contents that are not owned or controlled by the Application Provider ("Third Party Applications"). These links are intended to connect you easily to additional sources of health information or third party services that may be of interest to you. We may not have any business relationship with the party that controls this type of Third Party Applications and such links are offered only as a convenience to you. Application Provider is not responsible for the content, security or the privacy practices of Third Party Applications. Please review the privacy statement and any terms of use of each Third Party Application you use. Unless we specifically advise you otherwise, links to Third Party Applications do not constitute or imply endorsement by the Application Provider of those sites, the information they contain or any products or services they describe. Application Provider does not receive payment or other remuneration in exchange for you linking to or using any Third Party Applications.\n\n6. Passwords.  Application Provider has several tools that allow you to record and store information. You are responsible for taking all reasonable steps to ensure that no unauthorized person shall have access to your mobile application password or account. It is your sole responsibility to (angel) control the disclosure and use of your activation codes and password; (beer) authorize, monitor, and control access to and use of your mobile application account and password; and (coffee) promptly inform the APPLICATION PROVIDER of any need to deactivate a password.\n\n7. USE OF DATA.  You may need to provide personal information in order to use the Application. This information may include your answers to questions about your health status. APPLICATION PROVIDER’S privacy policy (http://navishealth.com/privacy) describes the information they collect, the information APPLICATION USER might submit, how APPLICATION PROVIDER uses such information and under what conditions APPLICATION PROVIDER might share such information with others. APPLICATION USER acknowledges that APPLICATION PROVIDER may compile certain general information related to their use of the Application.\n\n8. View medical record.  Application Users may use the Application to view certain information displayed from their medical records, including the results of certain laboratory tests. In addition, although the Application may display certain information from your medical record, they do not necessarily display all information found in your medical record.\n\n9. Disclaimer and Limitation of liability.   THE MOBILE APPLICATION AND ITS CONTENT ARE PROVIDED "AS IS," WITH ALL FAULTS, WITH NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT. YOU ASSUME TOTAL RESPONSIBILITY AND RISK FOR YOUR USE OF THIS APPLICATION, ALL RELATED SERVICES, AND THIRD PARTY CONTENT. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY THE APPLICATION PROVIDER OR ITS AUTHORIZED REPRESENTATIVES SHALL CREATE A WARRANTY OF ANY KIND. ANY REFERENCES TO SPECIFIC PRODUCTS OR SERVICES WITHIN THE MOBILE APPLICATION DO NOT CONSTITUTE OR IMPLY A RECOMMENDATION OR ENDORSEMENT BY THE APPLICATION PROVIDER UNLESS SPECIFICALLY STATED OTHERWISE. OUR SOLE REMEDY FOR DISSATISFACTION WITH THE MOBILE APPLICATION, ITS CONTENT, AND/OR THIRD PARTY APPLICATIONS IS TO STOP USING THE APPLICATION AND REMOVE IT FROM YOUR MOBILE DEVICE. THESE TERMS AND CONDITIONS, AND YOUR USE OF THE APPLICATION ARE GOVERNED BY CALIFORNIA LAW WITHOUT REGARD TO ITS PRINCIPLES OF CONFLICTS OF LAW. \n\n10. CONTACT.  If you have any questions about the Application, please send an email to support@navishealth.com.\n\nCopyright © 2014 NavisHealth Solutions, Inc. \nAll rights reserved.\n\n</string>
+    <string name="trackyourhealth_bloodpressure">BLOOD PRESSURE</string>
+    <string name="trackyourhealth_fitbit">FITBIT\n</string>
+    <string name="trackyourhealth_medication">MEDICATIONS\n</string>
+    <string name="userprofile_header">PROFILE</string>
+    <string name="userprofile_willprovidefeedback">Will you provide feedback.</string>
+    <string name="userprofile_willsharedata">Will you share data with hospital.</string>
+    <string name="userprofile_save">SAVE</string>
+    <string name="slider_welcome">Welcome User</string>
+    <string name="slider_home">HOME</string>
+    <string name="slider_notification">NOTIFICATION</string>
+    <string name="slider_enrollmentwithmr">ENROLL WITH MEDICAL RECORD NO.</string>
+    <string name="slider_lab">LAB RESULTS</string>
+    <string name="slider_profile">PROFILE</string>
+    <string name="slider_appointment">SCHEDULE APPOINTMENT</string>
+    <string name="slider_viewappointment">VIEW PAST/UPCOMING APPOINTMENT</string>
+    <string name="slider_prescription">VIEW PRESCRIPTIONS</string>
+    <string name="slider_resetpass">RESET PASSWORD</string>
+    <string name="slider_contactus">CONTACT US</string>
+    <string name="slider_history">ACCESS HISTORY</string>
+    <string name="slider_logout">LOGOUT</string>
+    <string name="slider_logoutmessage">Are you sure you want to logout?</string>
+    <string name="dialog_emailaddress">Please enter the Email</string>
+    <string name="dialog_profilepdated">Profile updated succesfully</string>
+    <string name="dialog_recordfound">Congratulations, We have found your record</string>
+    <string name="dialog_feedbackposted">Feedback posted successfully</string>
+    <string name="dialog_appointmentsent">Appointment request sent successfully.</string>
+    <string name="dialog_recordnotfound">We are unable to find your record. Would you like to re-enter your personal information? Selecting “No” will allow you to continue as a guest user.</string>
+    <string name="dialog_serverunreachable">Server is unreachable</string>
+    <string name="dialog_somethingwentwrong">Something went wrong</string>
+    <string name="dialog_placeacall">Would you like to place a call?</string>
+    <string name="dialog_wronganswers">You have entered more than two wrong answers.</string>
+    <string name="dialog_accepttnc">Please accept terms and conditions</string>
+    <string name="dialog_uniqueid">Please enter your Unique Id</string>
+    <string name="dialog_firstname">Please enter first name</string>
+    <string name="dialog_lastname">Please enter last name</string>
+    <string name="dialog_dob">Please enter Date of Birth</string>
+    <string name="dialog_validphonenumber">Please enter valid phone number</string>
+    <string name="dialog_validemailid">Invalid Email found</string>
+    <string name="dialog_validdob">Date of Birth is invalid</string>
+    <string name="dialog_invalidpassword"> PIN must not be empty.</string>
+    <string name="dialog_emptypassword">PIN must not be empty.</string>
+    <string name="dialog_unmatchedpassword">PIN does not match.</string>
+    <string name="dialog_limitedaccess">The Medical Record (MR) number assigned by your hospital is required for private access to your personal health information.  Answer ‘Yes’ to provide your MR number.  Answer ‘No’ to use this application as a guest user only.</string>
+    <string name="medicine_reminder_header">NEW REMINDER</string>
+    <string name="medicine_reminder_addreminder_notification">Notification  </string>
+    <string name="medicine_reminder_addreminder_for">FOR</string>
+    <string name="medicine_reminder_addreminder_date">MEDICATION</string>
+    <string name="medicine_reminder_addreminder_frequency">FREQUENCY</string>
+    <string name="medicine_reminder_addreminder_time">TIMES</string>
+    <string name="medicine_reminder_addreminder_doses">DOSES</string>
+    <string name="medicine_reminder_addreminder_addname">Add Name\t</string>
+    <string name="medicine_reminder_addreminder_notset">Not Set\t</string>
+    <string name="medicine_reminder_addreminder_leaveNitofication">Leave notification on if you would like to receive an alert for this medication</string>
+    <string name="first_aid_health_library_header">FIRST AID &amp; HEALTH LIBRARY</string>
+    <string name="first_aid_health_library_categoryheader">CATEGORY</string>
+    <string name="first_aid_health_library_populationheader">POPULATION</string>
+    <string name="first_aid_health_library_topicheader">TOPICS</string>
+    <string name="first_aid_health_library_topicatozheader">TOPIC HELP A TO Z</string>
+    <string name="first_aid_health_library_toolsheader">TOOLS</string>
+    <string name="first_aid_health_library_category_healthconditionheader">HEALTH CONDITION AND DESEASE</string>
+    <string name="first_aid_health_library_category_doctorvisitheader">DOCTOR VISIT</string>
+    <string name="first_aid_health_library_category_nutrition_phyicalactivityheader">NUTRITION AND PHYICAL ACTIVITY</string>
+    <string name="first_aid_health_library_category_everyday_livingheader">EVERYDAY HEALTH LIVING</string>
+    <string name="first_aid_health_library_category_pregnancyheader">PREGNANCY</string>
+    <string name="first_aid_health_library_category_parentingheader">PARENTING</string>
+    <string name="first_aid_health_library_population_womenheader">WOMEN</string>
+    <string name="first_aid_health_library_population_menheader">MEN</string>
+    <string name="first_aid_health_library_population_older_adultsheader">OLDER ADULTS</string>
+    <string name="first_aid_health_library_population_babies_toddlersheader">BABIES AND TODDLERS</string>
+    <string name="first_aid_health_library_population_childrenheader">CHILDREN</string>
+    <string name="first_aid_health_library_population_preteens_teensheader">PRE-TEENS AND TEENS</string>
+    <string name="first_aid_health_library_health_topic_atoz">Health Topics A to Z</string>
+    <string name="first_aid_health_library_category">Category</string>
+    <string name="first_aid_health_library_populations">Populations</string>
+    <string name="first_aid_health_library_topics">Topics</string>
+    <string name="first_aid_health_library_tools">Tools</string>
+    <string name="first_aid_health_library_category_healthcondition">Health Condition and Disease</string>
+    <string name="first_aid_health_library_category_doctorvisit">Doctor Visit</string>
+    <string name="first_aid_health_library_category_nutrition_phyicalactivity">Nutrition and Physical Activity</string>
+    <string name="first_aid_health_library_category_everyday_living">Everyday Health Living</string>
+    <string name="first_aid_health_library_category_pregnancy">Pregnancy</string>
+    <string name="first_aid_health_library_category_parenting">Parenting</string>
+    <string name="first_aid_health_library_population_women">Women</string>
+    <string name="first_aid_health_library_population_men">Men</string>
+    <string name="first_aid_health_library_population_older_adults">Older Adults</string>
+    <string name="first_aid_health_library_population_babies_toddlers">Babies and Toddlers</string>
+    <string name="first_aid_health_library_population_children">Children</string>
+    <string name="first_aid_health_library_population_preteens_teens">Pre-teens and Teens</string>
+    <string name="contact_contactexist">Contact already present</string>
+    <!-- Added By: Ajeet -->
+
+    <string name="reminder_addreminder_leaveNitofication">Leave notification on if you would like to receive an alert for this blood pressure</string>
+    <string name="tilte_graph">GRAPH</string>
+    <string name="text_view_progress">\tVIEW PROGRESS</string>
+    <string name="text_view_reminder">VIEW REMINDER</string>
+    <string name="text_blood_pressure">BLOOD PRESSURE</string>
+    <string name="reminder_name_header">NAME</string>
+    <string name="reminder_times_header">TIMES</string>
+    <string name="reminder_frequency_header">FREQUENCY</string>
+    <string name="string_done">Done</string>
+    <string name="text_pressure">PRESSURE</string>
+    <string name="reminder_new_reminder_header">NEW REMINDER</string>
+    <string name="reminder_header">REMINDERS</string>
+    <string name="reminder_addreminder_notification">NOTIFICATION</string>
+    <string name="reminder_addreminder_for">FOR</string>
+    <string name="reminder_addreminder_date">DATE</string>
+    <string name="reminder_addreminder_frequency">FREQUENCY</string>
+    <string name="reminder_addreminder_time">TIMES</string>
+    <string name="reminder_addreminder_addname">Add Name\t</string>
+    <string name="reminder_addreminder_notset">Not Set\t</string>
+    <string name="text_add_note">ADD NOTE</string>
+    <string name="text_fill_in_all_details">please fill in all details</string>
+    <string name="physician_physician">PHYSICIANS</string>
+    <string name="add_name_string">Add Name</string>
+    <string name="delete_string">Delete</string>
+    <string name="edit_string">Edit</string>
+
+    <string-array name="frequency_array">
+        <item> One Time Only</item>
+        <item> Every 12 hours</item>
+        <item> Every Day</item>
+        <item> Every 2 Days</item>
+        <item> Every 3 Days</item>
+        <item> Every 4 Days</item>
+        <item> Every 5 Days</item>
+        <item> Every 6 Days</item>
+        <item> Every Week</item>
+        <item> Every Month</item>
+    </string-array>
+    <string-array name="times_array">
+        <item>12:00 AM</item>
+        <item>01:00 AM</item>
+        <item>02:00 AM</item>
+        <item>03:00 AM</item>
+        <item>04:00 AM</item>
+        <item>05:00 AM</item>
+        <item>06:00 AM</item>
+        <item>07:00 AM</item>
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+        <item>06:00 PM</item>
+        <item>07:00 PM</item>
+        <item>08:00 PM</item>
+        <item>09:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+    </string-array>
+    <string-array name="method">
+        <item>Select</item>
+        <item>Oral</item>
+        <item>Buccal</item>
+        <item>Periodontal</item>
+        <item> Sublingual</item>
+        <item>Nasal</item>
+        <item>Respiratory(Inhalation)</item>
+        <item> Octic(Ear)</item>
+        <item>Opthalmic(Eye)</item>
+        <item>Topical</item>
+        <item>Transdermal</item>
+    </string-array>
+
+    <string name="kind_spinner">choose kind</string>
+
+    <string-array name="kind">
+        <item>Select</item>
+        <item>Pill</item>
+        <item>Tablet</item>
+        <item>Capsule</item>
+        <item>Liquid</item>
+        <item>Syrup</item>
+        <item>Suspension</item>
+        <item>Solution</item>
+        <item>Cream</item>
+        <item>Gel</item>
+        <item>Lotion</item>
+    </string-array>
+    <string-array name="doses_name">
+        <item>pills</item>
+        <item>drops</item>
+        <item>tsp</item>
+        <item>tbsp</item>
+        <item>fl oz</item>
+        <item>cc</item>
+    </string-array>
+    <string-array name="email">
+        <item>d1@domain1.demo.direct-test.com</item>
+        <item>d2@domain1.demo.direct-test.com</item>
+        <item>d3@domain2.demo.direct-test.com</item>
+        <item>d4@domain2.demo.direct-test.com</item>
+        <item>d9@domain1.demo.direct-test.com</item>
+        <item>d10@domain3.demo.direct-test.com</item>
+        <item>d14@domain1.demo.direct-test.com</item>
+        <item>d15@domain2.demo.direct-test.com</item>
+        <item>d16@domain6.demo.direct-test.com</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="global_pdf">PDF</string>
+    <string name="global_xml">XML</string>
+    <string name="global_both">Both</string>
+    <string name="please_select_one_option">Please select one option</string>
+    <string name="transmit_header">TRANSMIT</string>
+    <string name="transmit_message">Recipient(To) must be a email address, also referred to as a direct address. If you know your recipients secure(Direct) address, contact them first.</string>
+    <string name="dialog_adminreport_scorecard">SCORECARD REPORT</string>
+    <string name="dialog_adminreport_detailreport">DETAIL REPORT</string>
+    <string name="report">REPORT</string>
+    <string name="scorecardreport_header">SCORECARD REPORT</string>
+    <string name="adminscorecard_itemstage">Stage</string>
+    <string name="adminscorecard_itemmeasure">Measure</string>
+    <string name="adminscorecard_populationdenominator">Population Denominator</string>
+    <string name="adminscorecard_populationnumerator">Population Numerator</string>
+    <string name="adminscorecard_itemnumeratorrecorded">Numerator Recorded</string>
+    <string name="adminscorecard_itempercentage">Percentage</string>
+    <string name="admindetail_itempatientid">Patientid</string>
+    <string name="admindetail_itemfname">First Name</string>
+    <string name="admindetail_itemlname">Last Name</string>
+    <string name="admindetail_populationdenominator">DOB</string>
+    <string name="admindetail_populationnumerator">Population Numerator</string>
+    <string name="admindetail_itemnumeratorrecorded">Numerator Recorded</string>
+    <string name="admindetail_itemencounterdate">Encounter Date</string>
+    <string name="admindetail_itemeventdate">Event Date</string>
+    <string name="ntp">NTP</string>
+    <string name="discover_certificate">DISCOVER CERTIFICATE</string>
+    <string name="discover_certificate_example">eg. neuser@dev.navisengage.com</string>
+    <string name="btn_Go">GO</string>
+    <string name="dialog_emailaddress1"> Enter Email </string>
+    <string name="ntpserverTime">NTP Server Time</string>
+    <string name="server">Server:</string>
+    <string name="naavisSystemTime">Navis System Time</string>
+    <string name="btn_Commit">COMPARE</string>
+    <string name="discoveremail">Enter Email </string>
+
+    <string-array name="commit">
+        <item>time.nist.gov </item>
+        <item>time-nw.nist.gov</item>
+        <item>time-a.nist.gov</item>
+        <item>time-b.nist.gov</item>
+    </string-array>
+    <string-array name="list_of_direct_addresses">
+        <item>direct-clinical-summary@transport-testing.nist.gov</item>
+        <item>direct-ambulatory@transport-testing.nist.gov</item>
+        <item>direct-ambulatory@transport-testing.nist.gov</item>
+        <item>direct-ambulatory@transport-testing.nist.gov</item>
+        <item>direct-inpatient@transport-testing.nist.gov</item>
+        <item>direct-inpatient@transport-testing.nist.gov</item>
+        <item>direct-inpatient@transport-testing.nist.gov</item>
+        <item>direct-vdt-ambulatory@transport-testing.nist.gov</item>
+        <item>direct-vdt-inpatient@transport-testing.nist.gov</item>
+        <item>ccda@transport-testing.nist.gov</item>
+        <item>d1@domain1.demo.direct-test.com</item>
+        <item>d2@domain1.demo.direct-test.com</item>
+        <item>d3@domain2.demo.direct-test.com</item>
+        <item>d4@domain2.demo.direct-test.com</item>
+        <item>d5@domain1.demo.direct-test.com</item>
+        <item>d6@domain4.demo.direct-test.com</item>
+        <item>d7@domain2.demo.direct-test.com</item>
+        <item>d8@domain5.demo.direct-test.com</item>
+        <item>d9@domain1.demo.direct-test.com</item>
+        <item>d10@domain3.demo.direct-test.com</item>
+        <item>d11@domain6.demo.direct-test.com</item>
+        <item>d12@domain7.demo.direct-test.com</item>
+        <item>d13@domain8.demo.direct-test.com</item>
+        <item>d14@domain1.demo.direct-test.com</item>
+        <item>d15@domain2.demo.direct-test.com</item>
+        <item>d16@domain5.demo.direct-test.com</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="confirmed_appointments">CONFIRMED APPOINTMENTS</string>
+    <string name="reminder_go"> GO </string>
+    <string name="notification_details"> NOTIFICATION </string>
+    <string name="hospital_notification"> HOSPITAL NOTIFICATIONS</string>
+    <string name="notifications"> NOTIFICATIONS </string>
+    <string name="reminders"> REMINDERS </string>
+    <string name="medication"> Medication </string>
+    <string name="bloodpressure"> Blood pressure</string>
+    <string name="response"> RESPONSE </string>
+    <string name="comment">COMMENT</string>
+    <string name="dateadded">DATE ADDED</string>
+    <string name="sys">SYS</string>
+    <string name="dia">DIA</string>
+    <string name="pulse">PULSE</string>
+    <string name="scheduled_appointments"> SCHEDULED APPOINTMENTS</string>
+    <string name="transmit">TRANSMIT</string>
+    <string name="warnings">WARNINGS</string>
+    <string name="locationdis">Admission Location</string>
+    <string name="locationadm">Discharge Location</string>
+    <!-- added by Nitij : User Registration Strings -->
+    <string name="ur_launch_asguest">Connect as Guest</string>
+    <string name="ur_launch_connecthospital">Connect to Hospital</string>
+    <string name="ur_enterphonenumber">Enter phone number</string>
+    <string name="ur_mrnumber">Enter MR number</string>
+    <string name="ur_dob">Enter Date of Birth</string>
+    <string name="ur_emailid">Enter Email</string>
+    <string name="ur_submit">SUBMIT</string>
+    <string name="ur_validatecode">Validate Security Code</string>
+    <string name="ur_securitycodeheader">SECURITY CODE</string>
+    <string name="ur_securitycodedesc">Please select a delivery option to receive your security code.</string>
+    <string name="ur_sms">SMS</string>
+    <string name="ur_voicecall">Voice call</string>
+    <string name="ur_email">Email</string>
+    <string name="ur_resendcode">Resend Security Code</string>
+    <string name="ur_getcode">Get Security Code</string>
+    <string name="ur_selectcodeoption">Please select an option SMS/Voice call</string>
+    <string name="ur_entercode">Please enter 6-digit security code</string>
+    <string name="ur_generatesecuritycode">Please generate security code.</string>
+    <string name="ur_dialog_codesent">Security code sent successfully</string>
+    <string name="ur_dialog_codevalidationfailed">Security code validation failed</string>
+    <string name="ur_dialog_codevalidated">Security code validated successfully</string>
+    <string name="ur_fingerprintheader">PIN/FINGERPRINT</string>
+    <string name="ur_enabletouchid">Enable Fingerprint scanner</string>
+    <string name="ur_enterfourdigitpin">Create your four digit PIN</string>
+    <string name="ur_enterpin">Please enter four digit PIN</string>
+    <string name="ur_conffourdigitpin">Confirm four digit PIN</string>
+    <string name="ur_savepin">Save PIN</string>
+    <string name="ur_pinsaved">Pin saved successfully.</string>
+    <string name="ur_pinunmatched">Confirm pin doesn\'t match.</string>
+    <string name="ur_securityquestionheader">SECURITY QUESTION</string>
+    <string name="ur_confupdateemailheader">CONFIRM/UPDATE EMAIL</string>
+    <string name="ur_registeredemail">Registered email</string>
+    <string name="ur_confirmmail">Confirm Email</string>
+    <string name="ur_updateemail">Update Email</string>
+    <string name="ur_enternewmail">Please enter new email.</string>
+    <string name="ur_mailupdated">Email updated successfully.</string>
+    <string name="ur_sharedataheader">SHARE HEALTH DATA</string>
+    <string name="ur_willsharedate">Will you share your mobile health data with your physician and medical team.</string>
+    <string name="ur_register">Register</string>
+    <string name="ur_connected">Congratulation, You are now connected to Cascade Valley</string>
+    <string name="ur_forgotpin">Forgot PIN</string>
+    <string name="ur_resetpin">RESET PIN</string>
+    <string name="ur_changephonenumber">CHANGE PHONE NUMBER</string>
+    <string name="ur_continueLogin">Continue to Login</string>
+    <string name="ur_enternewphonenumber">Please enter new phone number.</string>
+    <string name="ur_phonenumberupdated">Phone number updated successfully</string>
+    <string name="pinunlock">PIN UNLOCK</string>
+    <string name="navishealth">Cascade Valley</string>
+    <string name="touchid">Press for Fingerprint</string>
+    <string name="pin">Alternative PIN</string>
+    <string name="pinfingerprint">PIN/FINGERPRINTS</string>
+    <string name="ur_resetpass">RESET PIN</string>
+    <string name="ur_changephone">CHANGE PHONE NUMBER</string>
+    <string name="ur_profile_resetpassword_oldpass">Old 4-digit pin</string>
+    <string name="ur_profile_resetpassword_newpass">New 4-digit pin</string>
+    <string name="ur_profile_resetpassword_confnewpass">Confirm New 4-digit pin</string>
+    <string name="pinfingerprintscanner">FingerprintScanner for Cascade Valley</string>
+    <string name="authenticate">Please authenticate to proceed</string>
+    <string name="password">Enter Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="finger">Fingerprint Recognition</string>
+    <string name="finger1">Swipe your finger on the Home button to log into Engage</string>
+    <string name="message">Finger Scanner is a seamless way to use your fingerprint as a passcode to log into Engage. However, Engage has detected finger scanner needs to be set up on your device. In order to use finger scanner, go to your device settings and complete the required steps</string>
+    <string name="message1">Finger Scanner for "Engage"</string>
+    <string name="ur_enterfourdigitconfirmpin">Please enter 4-digit confirm Pin</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="sos">SOS</string>
+    <string name="canc">CANC</string>
+    <string name="direct_address_example">eg. neuser@dev1.navisengage.com\ndirect-clinical-summary@transport-testing.nist.gov</string>
+
+    <!-- dapp03 server -->
+    
+<!--    <string name="url">https://stg-m.navisengage.com:8443</string> -->
+    
+    <string name="url">https://m.navisengage.com:8443/naavisEngage/service/</string>
+    <!-- <string name="url">https://me-dev.naavis.com:8443/naavisEngage/service/</string> -->
 
 </resources>
